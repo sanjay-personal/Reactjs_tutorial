@@ -1,5 +1,6 @@
 import './App.css';
 import Hello from './components/functional/hello'
+import HelloC from './components/classes/HelloC'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
          <div> Hello World App </div>
         
       <Hello />
+      <HelloC />
 
     </div>
   );
