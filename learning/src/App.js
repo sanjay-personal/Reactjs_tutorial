@@ -3,6 +3,7 @@ import Hello from './components/functional/hello'
 import HelloC from './components/classes/HelloC'
 import HelloJsx from './components/functional/hellojsx';
 import PropsF from './components/functional/propsF';
+import PropsC from './components/classes/propsC';
 
 
 function App() {
@@ -19,6 +20,12 @@ function App() {
       <PropsF name="hello2" hero="bye2"/>
       <PropsF name="hello3" hero="bye3" > this text from inside tag content  </PropsF>
       <PropsF name="hello4" hero="bye4" > <button>Actions</button>  </PropsF>
+
+      <PropsC name="helloC1" hero="bye1" />
+      <PropsC name="helloC2" hero="bye2"/>
+      <PropsC name="helloC3" hero="bye3" > this text from inside tag content  </PropsC>
+      <PropsC name="helloC4" hero="bye4" > <button>Actions</button>  </PropsC>
+
 
 
 
