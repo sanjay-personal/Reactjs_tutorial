@@ -1,6 +1,8 @@
 import './App.css';
 import Hello from './components/functional/hello'
 import HelloC from './components/classes/HelloC'
+import HelloJsx from './components/functional/hellojsx';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         
       <Hello />
       <HelloC />
+      <HelloJsx />
 
     </div>
   );
