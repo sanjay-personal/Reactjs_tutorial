@@ -26,7 +26,7 @@ class SetStateC extends Component {
                 <div>
                     {this.state.counter}
 
-                    <button onClick={() => this.changeMsg()}>Count</button>
+                    <button onClick={() => this.changeMsg()}>increment 5</button>
                 </div>
             </div>
         )

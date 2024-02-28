@@ -6,6 +6,7 @@ import PropsF from './components/functional/propsF';
 import PropsC from './components/classes/propsC';
 import StateC from './components/classes/StateC';
 import SetStateC from './components/classes/SetStateC';
+import PreviousSetState from './components/classes/PreviousSetState';
 
 
 
@@ -32,6 +33,7 @@ function App() {
 
       <StateC />
       <SetStateC />
+      <PreviousSetState />
 
 
     </div>
