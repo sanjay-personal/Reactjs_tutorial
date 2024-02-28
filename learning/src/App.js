@@ -5,6 +5,8 @@ import HelloJsx from './components/functional/hellojsx';
 import PropsF from './components/functional/propsF';
 import PropsC from './components/classes/propsC';
 import StateC from './components/classes/StateC';
+import SetStateC from './components/classes/SetStateC';
+
 
 
 
@@ -29,6 +31,7 @@ function App() {
       <PropsC name="helloC4" hero="bye4" > <button>Actions</button>  </PropsC>
 
       <StateC />
+      <SetStateC />
 
 
     </div>
