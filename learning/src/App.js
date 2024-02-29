@@ -7,6 +7,7 @@ import PropsC from './components/classes/propsC';
 import StateC from './components/classes/StateC';
 import SetStateC from './components/classes/SetStateC';
 import PreviousSetState from './components/classes/PreviousSetState';
+import DestructuringF from './components/functional/DestructuringF';
 
 
 
@@ -31,9 +32,13 @@ function App() {
       <PropsC name="helloC3" hero="bye3" > this text from inside tag content  </PropsC>
       <PropsC name="helloC4" hero="bye4" > <button>Actions</button>  </PropsC>
 
+    
+
       <StateC />
       <SetStateC />
       <PreviousSetState />
+
+      <DestructuringF name="hello1 destructuring" hero="bye1" />
 
 
     </div>
