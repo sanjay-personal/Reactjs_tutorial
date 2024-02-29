@@ -8,6 +8,7 @@ import StateC from './components/classes/StateC';
 import SetStateC from './components/classes/SetStateC';
 import PreviousSetState from './components/classes/PreviousSetState';
 import DestructuringF from './components/functional/DestructuringF';
+import DestructuringC from './components/classes/DestructuringC';
 
 
 
@@ -38,9 +39,11 @@ function App() {
       <SetStateC />
       <PreviousSetState />
 
-      <DestructuringF name="hello1 destructuring" hero="bye1" />
+      <DestructuringF name="hello1 destructuring function" hero="bye1" />
+      <DestructuringC name="hello1 destructuring class" hero="bye1" />
 
 
+      
     </div>
   );
 }
