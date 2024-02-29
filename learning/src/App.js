@@ -9,7 +9,8 @@ import SetStateC from './components/classes/SetStateC';
 import PreviousSetState from './components/classes/PreviousSetState';
 import DestructuringF from './components/functional/DestructuringF';
 import DestructuringC from './components/classes/DestructuringC';
-
+import ClickC from './components/classes/ClickC';
+import ClickF from './components/functional/ClickF';
 
 
 
@@ -42,6 +43,8 @@ function App() {
       <DestructuringF name="hello1 destructuring function" hero="bye1" />
       <DestructuringC name="hello1 destructuring class" hero="bye1" />
 
+       <ClickC />
+       <ClickF />
 
       
     </div>
