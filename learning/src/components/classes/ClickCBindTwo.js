@@ -8,7 +8,7 @@ class ClickCBindTwo extends Component {
         this.state ={
             message: 'Hello class Bind Two'
         }
-        this.buttonClickBind = this.buttonClickBind.bind(this)
+        this.buttonClickBind = this.buttonClickBind.bind(this) // offical react document choose this one or ClickCArrowTwo file
     }
    
 
