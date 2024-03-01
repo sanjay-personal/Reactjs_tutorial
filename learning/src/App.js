@@ -13,6 +13,7 @@ import ClickC from './components/classes/ClickC';
 import ClickF from './components/functional/ClickF';
 import ClickCBind from './components/classes/ClickCBind';
 import ClickCArrow from './components/classes/ClickCArrow';
+import ClickCBindTwo from './components/classes/ClickCBindTwo';
 
 
 
@@ -50,6 +51,7 @@ function App() {
       
       <ClickCBind />
       <ClickCArrow />
+      <ClickCBindTwo />
     </div>
   );
 }
