@@ -12,6 +12,7 @@ import DestructuringC from './components/classes/DestructuringC';
 import ClickC from './components/classes/ClickC';
 import ClickF from './components/functional/ClickF';
 import ClickCBind from './components/classes/ClickCBind';
+import ClickCArrow from './components/classes/ClickCArrow';
 
 
 
@@ -48,6 +49,7 @@ function App() {
        <ClickF />
       
       <ClickCBind />
+      <ClickCArrow />
     </div>
   );
 }
