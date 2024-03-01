@@ -11,6 +11,7 @@ import DestructuringF from './components/functional/DestructuringF';
 import DestructuringC from './components/classes/DestructuringC';
 import ClickC from './components/classes/ClickC';
 import ClickF from './components/functional/ClickF';
+import ClickCBind from './components/classes/ClickCBind';
 
 
 
@@ -45,8 +46,8 @@ function App() {
 
        <ClickC />
        <ClickF />
-
       
+      <ClickCBind />
     </div>
   );
 }
