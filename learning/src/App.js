@@ -16,6 +16,7 @@ import ClickCArrow from './components/classes/ClickCArrow';
 import ClickCBindTwo from './components/classes/ClickCBindTwo';
 import ClickCArrowTwo from './components/classes/ClickCArrowTwo';
 import Parent from './components/classes/Parent';
+import ParentTwo from './components/classes/ParentTwo';
 
 
 
@@ -56,6 +57,7 @@ function App() {
       <ClickCBindTwo />
       <ClickCArrowTwo />
       <Parent />
+      <ParentTwo />
     </div>
   );
 }
