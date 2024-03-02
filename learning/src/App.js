@@ -17,6 +17,7 @@ import ClickCBindTwo from './components/classes/ClickCBindTwo';
 import ClickCArrowTwo from './components/classes/ClickCArrowTwo';
 import Parent from './components/classes/Parent';
 import ParentTwo from './components/classes/ParentTwo';
+import IfElse from './components/classes/IfElse';
 
 
 
@@ -58,6 +59,7 @@ function App() {
       <ClickCArrowTwo />
       <Parent />
       <ParentTwo />
+      <IfElse />
     </div>
   );
 }
