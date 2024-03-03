@@ -20,6 +20,7 @@ import ParentTwo from './components/classes/ParentTwo';
 import IfElse from './components/classes/IfElse';
 import IfElseTwo from './components/classes/IfElseTwo';
 import IfElseThree from './components/classes/IfElseThree';
+import IfElseFour from './components/classes/IfElseFour';
 
 
 
@@ -64,6 +65,7 @@ function App() {
       <IfElse />
       <IfElseTwo />
       <IfElseThree />
+      <IfElseFour />
     </div>
   );
 }
