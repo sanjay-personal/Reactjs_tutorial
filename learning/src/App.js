@@ -22,6 +22,8 @@ import IfElseTwo from './components/classes/IfElseTwo';
 import IfElseThree from './components/classes/IfElseThree';
 import IfElseFour from './components/classes/IfElseFour';
 import For from './components/classes/For';
+import ForTwo from './components/functional/ForTwo';
+import ForTwoParent from './components/functional/ForTwoParent';
 
 
 
@@ -68,6 +70,8 @@ function App() {
       <IfElseThree />
       <IfElseFour />
       <For />
+      <ForTwo />
+      <ForTwoParent />
     </div>
   );
 }
