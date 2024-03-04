@@ -21,6 +21,7 @@ import IfElse from './components/classes/IfElse';
 import IfElseTwo from './components/classes/IfElseTwo';
 import IfElseThree from './components/classes/IfElseThree';
 import IfElseFour from './components/classes/IfElseFour';
+import For from './components/classes/For';
 
 
 
@@ -66,6 +67,7 @@ function App() {
       <IfElseTwo />
       <IfElseThree />
       <IfElseFour />
+      <For />
     </div>
   );
 }
