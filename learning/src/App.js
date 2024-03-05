@@ -25,6 +25,7 @@ import For from './components/classes/For';
 import ForTwo from './components/functional/ForTwo';
 import ForTwoParent from './components/functional/ForTwoParent';
 import Stylesheet from './components/functional/Stylesheet';
+import StylesheetTwo from './components/functional/StylesheetTwo';
 
 
 
@@ -74,6 +75,7 @@ function App() {
       <ForTwo />
       <ForTwoParent />
       <Stylesheet primary = {true}/>
+      <StylesheetTwo />
     </div>
   );
 }
