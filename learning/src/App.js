@@ -24,6 +24,7 @@ import IfElseFour from './components/classes/IfElseFour';
 import For from './components/classes/For';
 import ForTwo from './components/functional/ForTwo';
 import ForTwoParent from './components/functional/ForTwoParent';
+import Stylesheet from './components/functional/Stylesheet';
 
 
 
@@ -72,6 +73,7 @@ function App() {
       <For />
       <ForTwo />
       <ForTwoParent />
+      <Stylesheet primary = {true}/>
     </div>
   );
 }
