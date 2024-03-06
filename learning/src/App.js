@@ -26,6 +26,8 @@ import ForTwo from './components/functional/ForTwo';
 import ForTwoParent from './components/functional/ForTwoParent';
 import Stylesheet from './components/functional/Stylesheet';
 import StylesheetTwo from './components/functional/StylesheetTwo';
+import './components/MystyleTwo.css'
+import stylesheet from './components/MystyleModule.module.css'
 
 
 
@@ -76,6 +78,9 @@ function App() {
       <ForTwoParent />
       <Stylesheet primary = {true}/>
       <StylesheetTwo />
+      <h1 className='error'>regular stylesheet error</h1>
+      <h1 className={stylesheet.success}>module stylesheet success</h1>
+
     </div>
   );
 }
