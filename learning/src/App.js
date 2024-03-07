@@ -29,6 +29,7 @@ import StylesheetTwo from './components/functional/StylesheetTwo';
 import './components/MystyleTwo.css'
 import stylesheet from './components/MystyleModule.module.css'
 import FormC from './components/classes/FormC';
+import LifeCycleA from './components/classes/LifeCycleA';
 
 
 
@@ -82,6 +83,7 @@ function App() {
       <h1 className='error'>regular stylesheet error</h1>
       <h1 className={stylesheet.success}>module stylesheet success</h1>
       <FormC />
+      <LifeCycleA />
     </div>
   );
 }
