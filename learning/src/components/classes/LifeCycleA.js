@@ -27,7 +27,7 @@ class LifeCycleA extends Component {
         return (
         <div>
         <b>Hello component Mounting</b>
-        <LifeCycleB name="sanjay" />
+        <LifeCycleB  />
         </div>
         )
     }
