@@ -32,6 +32,7 @@ import FormC from './components/classes/FormC';
 import LifeCycleA from './components/classes/LifeCycleA';
 import LifeCycleAUpdate from './components/classes/LifeCycleAUpdate';
 import RefC from './components/classes/RefC';
+import RefParent from './components/classes/RefParent';
 
 
 
@@ -88,6 +89,7 @@ function App() {
       <LifeCycleA /> 
       <LifeCycleAUpdate />
       <RefC />
+      <RefParent />
     </div>
   );
 }
