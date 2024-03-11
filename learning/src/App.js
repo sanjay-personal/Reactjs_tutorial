@@ -31,6 +31,7 @@ import stylesheet from './components/MystyleModule.module.css'
 import FormC from './components/classes/FormC';
 import LifeCycleA from './components/classes/LifeCycleA';
 import LifeCycleAUpdate from './components/classes/LifeCycleAUpdate';
+import RefC from './components/classes/RefC';
 
 
 
@@ -86,6 +87,7 @@ function App() {
       <FormC />
       <LifeCycleA /> 
       <LifeCycleAUpdate />
+      <RefC />
     </div>
   );
 }
